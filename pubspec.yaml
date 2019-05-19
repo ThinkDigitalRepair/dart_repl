@@ -5,14 +5,13 @@ author: Andreas 'blackhc' Kirsch <blackhc@gmail.com>
 homepage: https://blog.blackhc.net
 
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=1.0.0 <3.0.0'
 
 dependencies:
-  args: ">=0.13.7 <0.14.0"
-  vm_service_client:
-    git:
-      url: git://github.com/BlackHC/vm_service_client.git
-      ref: reload_sources_poc
+  args: ^1.5.1
+
+  vm_service_client: ^0.2.6+2
+
   analyzer: ">=0.29.2 <0.30.0"
   package_resolver: ">=1.0.2 <2.0.0"
   meta: ">=1.0.4 <2.0.0"
